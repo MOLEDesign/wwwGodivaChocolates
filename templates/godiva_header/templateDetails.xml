@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>Godiva Header</name>
+	<creationDate>25/11/2013</creationDate>
+	<author>Jamaza / MOLEDesign</author>
+	<authorEmail>template@moledesign.biz</authorEmail>
+	<authorUrl>http://www.moledesign.biz</authorUrl>
+	<copyright></copyright>
+	<license>GNU/GPL</license>
+	<version>1.0</version>
+	<description>TPL_godiva_header</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+	<positions>
+		<position>menu</position>
+	</positions>
+	<params>
+	</params>
+</install>
