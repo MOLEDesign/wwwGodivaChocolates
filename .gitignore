@@ -1,5 +1,7 @@
+.idea
+.DS_Store
+_notes
 .gitignore
-.htaccess
 administrator/cache/*
 administrator/components/com_admin/*
 administrator/components/com_banners/*
