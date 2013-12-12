@@ -66,3 +66,5 @@ RewriteCond %{REQUEST_METHOD} ^PUT$ [OR]
 RewriteCond %{REQUEST_METHOD} ^MOVE$
 RewriteRule ^/images/(.*)\.pl /images/$1.nopl
 
+RewriteCond %{HTTP_HOST} ^godivachocolates\.eu [NC]
+RewriteRule (.*) http://www.godivachoclates.eu/$1 [R=301,L]
