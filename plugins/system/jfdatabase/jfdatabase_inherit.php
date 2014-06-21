@@ -563,7 +563,7 @@ class JFDatabase extends interceptDB {
 		if( !$passthru && isset($_JOOMFISH_MANAGER)) {
 			$actContentObject=null;
 			if( isset($table) && $table!="") {
-				$tableName = ereg_replace( '^#__', '', $table);
+				$tableName = preg_replace( '/^#__/', '', $table);
 				if ($table != "#__jf_content" ){
 					// *** QUESTION ***//
 					// IS THIS TEST APPROPRIATE HERE - I THINK IT MEANS YOU CAN'T DO A FIRST TRANSLATION FOR A TABLE VIA THE FRONT END
