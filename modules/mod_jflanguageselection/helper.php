@@ -164,7 +164,7 @@ if( !defined( 'JFMODULE_CLASS' ) ) {
 				$menu =& JSite::getMenu();
 				$menu->_items = JFModuleHTML::getJFMenu($sefLang->code, false, $menu->_items);
 				$url = JFModuleHTML::_route( $href, $sefLang);
-				$menu->_items = JFModuleHTML::getJFMenu($language->code, true, $menu->_items);
+				//$menu->_items = JFModuleHTML::getJFMenu($language->code, true, $menu->_items);
 				$registry->setValue("joomfish.sef_lang", false);
 
 				/*
